@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AsteroidSpawner : MonoBehaviour
+public class AsteroidSpawner : MonoBehaviour //спавн астероидов
 {
     public GameObject Asteroid;
     public GameObject[] Waypoints;

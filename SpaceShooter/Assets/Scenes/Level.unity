@@ -497,9 +497,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f15d8c8efc5f7034f9117e240ac9a77c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: {fileID: 1379177169}
-  Score: {fileID: 2010191572}
-  NeedScore: {fileID: 2085752543}
+  THealth: {fileID: 1379177169}
+  TScore: {fileID: 2010191572}
+  TNeedScore: {fileID: 2085752543}
+  Health: 0
+  Score: 0
+  NeedScore: 0
 --- !u!1 &979147352
 GameObject:
   m_ObjectHideFlags: 0
@@ -756,7 +759,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!1 &2010191570
 GameObject:
@@ -1049,6 +1052,11 @@ PrefabInstance:
     - target: {fileID: 6465097161307863195, guid: 8d9c6cf51f8445b49ace808304d6721d,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8302336573267857930, guid: 8d9c6cf51f8445b49ace808304d6721d,
+        type: 3}
+      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

@@ -10,6 +10,9 @@
           <e p="AsteroidMovement.cs" t="Include" />
           <e p="AsteroidSpawner.cs" t="Include" />
           <e p="BulletScript.cs" t="Include" />
+          <e p="LevelCreater.cs" t="Include" />
+          <e p="LevelPanel.cs" t="Include" />
+          <e p="LevelStore.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="ShootingScript.cs" t="Include" />
           <e p="UIController.cs" t="Include" />
